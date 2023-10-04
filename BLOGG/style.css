@@ -1,0 +1,67 @@
+body {
+    background-image: url('https://th.bing.com/th/id/R.070fc8189f35c49c14cd9267fc6b68ff?rik=xT52XyvbblbndA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fXMy9Ut3.jpg&ehk=Tstza35%2bZoXMJXBLWUoNcIqLN%2bRba2pIFqH9MJkjTfw%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 110%;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  article {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 18px;
+    }
+    main {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 16px;
+    }
+    main {
+      padding: 5px;
+    }
+  }
+  
